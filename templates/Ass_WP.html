@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Glasgow data collection website</title>
+    <h1>Welcome to the Glasgow Data Collection website!</h1>
+      <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename = 'Login.css') }}"><!-- Reference css -->
+</head>
+<body>
+<style>
+    body{
+        background-color: #ADD8E6;
+    }
+    </style>
+<table>
+	<tr>
+		<td><p align=center><font size=6>Welcome to the Glasgow Data Collection website!</font></p > <!-- The setting table is used to control the format -->
+			<br>
+			<br>
+		<p align=center><font size=6>The purpose of which is to help GIC collect data on student progress.</font></p >
+			<br>
+			<br>
+		<p align=center><font size=6>This helps to improve the student's academic and overall experience!</font></p ></td>
+		<td width=20%><img src="https://pic3.zhimg.com/80/v2-50c799433d06a7398f35fec0704e948e_1440w.webp" width="291" height="274" /><!-- Insert picture -->
+		<td width=20%><img src="https://d39l2hkdp2esp1.cloudfront.net/img/photo/125548/125548_00_2x.jpg?20170617082550" width="300" height="274" /></td></td>
+	</tr>
+</table>
+<a href="{{ url_for ('Information_Page') }}">Click here to start data collection.</a><!-- Set the link to jump to the next website -->
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Data Collection</title>
+	<link rel="stylesheet" href="724css.css" /><!-- Reference css -->
+</head>
+<body>
+<style>
+    body{
+        background-color: #ADD8E6;
+    }
+    </style>
+	<form>
+		<h1 align="center">Data Collection</h1>
+		<br>
+		<fieldset>
+				<br>
+				<br>
+		<font size="5"><b>Grades obtained in courses:</b></font><!-- Set multiple choice options -->
+		<select name="">
+		<option  value="choose...">choose...</option>
+		<option  value="100~80">100~80</option>
+		<option value="80~60">80~60</option>
+		<option value="under60">under60</option>
+
+	</select>
+		<br>
+		<br>
+		<font size="5"><b>user's name:</b></font><input type="text",size="8"><br><br><!-- Set the fill in the blank option -->
+		<font size="5"><b>student number:</b></font><input type="email" name="mail"><br><br>
+		<font size="5"><b>email address:</b></font><input type="tel" name="phone"><br><br>
+		<font size="5"><b>Overall satisfaction with the academic experience：</b></font><br><!-- Set another multiple choice options -->
+			<input  type="checkbox" name="action" value="good:)"><font size="5"><b>good:)</b></font><br><!-- Crafting options -->
+			<input  type="checkbox" name="action" value="medium:*"><font size="5"><b>medium:*</b></font><br>
+			<input  type="checkbox" name="action" value="poor:("><font size="5"><b>poor:(</b></font><br>
+
+			<br><br>
+			<font size="5"><b>Suggestions for improvement：</b></font><br>
+			<textarea row="50" cols="90">
+
+			</textarea>
+			<br>
+            <button onclick="myFunction()">Finish</button><!-- Set the submit button and popup window -->
+			<script>
+function myFunction() {
+  alert("Submission has been successful, thanks for submitting!");
+}
+</script>
+		</fieldset>
+	</form>
+	</body>
+	</html>
